@@ -1,0 +1,179 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestAzureAdAuthenticationAPI/1.0.0": {
+        "dependencies": {
+          "Microsoft.Identity.Client.Broker": "4.58.0"
+        },
+        "runtime": {
+          "TestAzureAdAuthenticationAPI.dll": {}
+        }
+      },
+      "Microsoft.Identity.Client/4.58.0": {
+        "dependencies": {
+          "Microsoft.Identity.Client.NativeInterop": "0.13.14",
+          "Microsoft.IdentityModel.Abstractions": "6.22.0",
+          "Microsoft.Web.WebView2": "1.0.864.35",
+          "System.Diagnostics.DiagnosticSource": "7.0.2"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.58.0.0",
+            "fileVersion": "4.58.0.0"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.Broker/4.58.0": {
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.58.0",
+          "Microsoft.Identity.Client.NativeInterop": "0.13.14"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Identity.Client.Broker.dll": {
+            "assemblyVersion": "4.58.0.0",
+            "fileVersion": "4.58.0.0"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.NativeInterop/0.13.14": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Identity.Client.NativeInterop.dll": {
+            "assemblyVersion": "0.13.14.0",
+            "fileVersion": "0.13.14.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/msalruntime_arm64.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/msalruntime.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/msalruntime_x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.22.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "6.22.0.0",
+            "fileVersion": "6.22.0.30727"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.864.35": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.864.35",
+            "fileVersion": "1.0.864.35"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.864.35",
+            "fileVersion": "1.0.864.35"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.864.35",
+            "fileVersion": "1.0.864.35"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.864.35"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.864.35"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.864.35"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/7.0.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.423.11508"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "TestAzureAdAuthenticationAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client/4.58.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dRPo7/omWfLcxUniAvlsTduSm0YYpef6Mumlx1PjXfIeB8tWrXe5vK9h8Ld41u/5W569Sx5QKSz+VI4KtxsVjg==",
+      "path": "microsoft.identity.client/4.58.0",
+      "hashPath": "microsoft.identity.client.4.58.0.nupkg.sha512"
+    },
+    "Microsoft.Identity.Client.Broker/4.58.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pctWgSDxgibpO/Vxho94IeF6Nmsax9psxeylm5UH0J+1zm8Mbw8pmDmFpd16wIJZSR19XjXFkx38Gnz9oZeP+A==",
+      "path": "microsoft.identity.client.broker/4.58.0",
+      "hashPath": "microsoft.identity.client.broker.4.58.0.nupkg.sha512"
+    },
+    "Microsoft.Identity.Client.NativeInterop/0.13.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hLRY8KREDIfHa7SrLfE4UUJk1iSNQjAw+tnLLhVB61mMr0Co5d+y92pIhcfYwl42bCsLHrXrOkRVzJlVN1R5jA==",
+      "path": "microsoft.identity.client.nativeinterop/0.13.14",
+      "hashPath": "microsoft.identity.client.nativeinterop.0.13.14.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/6.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iI+9V+2ciCrbheeLjpmjcqCnhy+r6yCoEcid3nkoFWerHgjVuT6CPM4HODUTtUPe1uwks4wcnAujJ8u+IKogHQ==",
+      "path": "microsoft.identitymodel.abstractions/6.22.0",
+      "hashPath": "microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.864.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V1qyLRiAZ31qmOOCFCjoONgaUfvJRiTHWcJWkT3V7pluM2+P6QAgqmbE4UX7Gt4sh6eN34wqM30OnTZ6HXI/sw==",
+      "path": "microsoft.web.webview2/1.0.864.35",
+      "hashPath": "microsoft.web.webview2.1.0.864.35.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hYr3I9N9811e0Bjf2WNwAGGyTuAFbbTgX1RPLt/3Wbm68x3IGcX5Cl75CMmgT6WlNwLQ2tCCWfqYPpypjaf2xA==",
+      "path": "system.diagnostics.diagnosticsource/7.0.2",
+      "hashPath": "system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    }
+  }
+}

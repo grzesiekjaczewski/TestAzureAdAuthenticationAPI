@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "HsPDPOXpVZw/OB3gpdKK+kavb0WwrNYzXqlUasnvpS7EccYRtf248xtn6kBmFoeAe9PokYekvPr83QCTXDsQgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gjaczewski\\source\\repos\\TestAzureAdAuthenticationAPI\\TestAzureAdAuthenticationAPI\\TestAzureAdAuthenticationAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gjaczewski\\.nuget\\packages\\microsoft.identity.client\\4.58.0\\microsoft.identity.client.4.58.0.nupkg.sha512",
+    "C:\\Users\\gjaczewski\\.nuget\\packages\\microsoft.identity.client.broker\\4.58.0\\microsoft.identity.client.broker.4.58.0.nupkg.sha512",
+    "C:\\Users\\gjaczewski\\.nuget\\packages\\microsoft.identity.client.nativeinterop\\0.13.14\\microsoft.identity.client.nativeinterop.0.13.14.nupkg.sha512",
+    "C:\\Users\\gjaczewski\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "C:\\Users\\gjaczewski\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\microsoft.web.webview2.1.0.864.35.nupkg.sha512",
+    "C:\\Users\\gjaczewski\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\gjaczewski\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
