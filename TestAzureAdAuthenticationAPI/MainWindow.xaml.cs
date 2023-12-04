@@ -1,6 +1,5 @@
 ﻿using Microsoft.Identity.Client;
 using System.Windows;
-using System.Configuration;
 
 namespace TestAzureAdAuthenticationAPI
 {
@@ -19,7 +18,7 @@ namespace TestAzureAdAuthenticationAPI
             var wih = new System.Windows.Interop.WindowInteropHelper(this);
             IntPtr hWnd = wih.Handle;
 
-            AuthenticationResult result = Task.Run(() => WamTokenManager.GetToken(ConfigurationManager.AppSettings["ClientId"], hWnd))
+            AuthenticationResult result = Task.Run(() => WamTokenManager.GetToken(hWnd))
                 .GetAwaiter()
                 .GetResult();
 

@@ -1,11 +1,15 @@
 ﻿using Microsoft.Identity.Client;
+using System.Configuration;
 
 namespace TestAzureAdAuthenticationAPI
 {
     internal class WamTokenManager
     {
-        public static async Task<AuthenticationResult> GetToken(string clientId, IntPtr hWnd)
+        public static async Task<AuthenticationResult> GetToken(IntPtr hWnd)
         {
+            string clientId = ConfigurationManager.AppSettings["ClientId"];
+            string scope = ConfigurationManager.AppSettings["Scope"];
+
             var pca = PublicClientApplicationBuilder.Create(clientId)
                 .WithBroker(new BrokerOptions(BrokerOptions.OperatingSystems.Windows))
                 .Build();
@@ -18,13 +22,13 @@ namespace TestAzureAdAuthenticationAPI
 
             try
             {
-                var authResult = await pca.AcquireTokenSilent(new[] { "user.read" }, accountToLogin)
+                var authResult = await pca.AcquireTokenSilent(new[] { scope }, accountToLogin)
                                             .ExecuteAsync();
                 return authResult;
             }
             catch (MsalUiRequiredException)
             {
-                var authResult = await pca.AcquireTokenInteractive(new[] { "user.read" })
+                var authResult = await pca.AcquireTokenInteractive(new[] { scope })
                                             .WithAccount(accountToLogin)
                                             .WithParentActivityOrWindow(hWnd)
                                             .ExecuteAsync();

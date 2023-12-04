@@ -35,3 +35,4 @@ C:\Users\gjaczewski\source\repos\TestAzureAdAuthenticationAPI\TestAzureAdAuthent
 C:\Users\gjaczewski\source\repos\TestAzureAdAuthenticationAPI\TestAzureAdAuthenticationAPI\obj\Debug\net6.0-windows\TestAzureAdAuthenticationAPI.csproj.AssemblyReference.cache
 C:\Users\gjaczewski\source\repos\TestAzureAdAuthenticationAPI\TestAzureAdAuthenticationAPI\obj\Debug\net6.0-windows\TestAzureAdAuthenticationAPI.csproj.CopyComplete
 C:\Users\gjaczewski\source\repos\TestAzureAdAuthenticationAPI\TestAzureAdAuthenticationAPI\bin\Debug\net6.0-windows\TestAzureAdAuthenticationAPI.dll.config
+C:\Users\gjaczewski\source\repos\TestAzureAdAuthenticationAPI\TestAzureAdAuthenticationAPI\obj\Debug\net6.0-windows\TestAzureAdAuthenticationAPI.sourcelink.json
